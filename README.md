@@ -86,3 +86,6 @@ Progress Tracking System to show course completion percentage.
 Search and Filter Options to help users find specific courses.
 
 Dark Mode Support for better accessibility.
+
+OUTPUT SCREEN
+![Image](https://github.com/user-attachments/assets/ec7aa264-9ad4-4b1e-84ed-4e2e2270f4da)
