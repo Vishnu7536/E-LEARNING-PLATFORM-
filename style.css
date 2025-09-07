@@ -1,0 +1,115 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: white;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #031540;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Courses */
+.courses {
+  padding: 40px;
+  text-align: center;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course-card h3 {
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.course-card a {
+  background-color: #031540;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.course-card a:hover {
+  background-color: #052a75;
+}
+
+/* Course Detail */
+.course-detail {
+  padding: 40px;
+}
+
+.course-detail h2 {
+  color: #031540;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 25px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.progress {
+  background: #031540;
+  color: white;
+  text-align: center;
+  height: 100%;
+  line-height: 25px;
+  font-size: 14px;
+}
